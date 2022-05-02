@@ -3,22 +3,15 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Hi there!
 
-* Ruby version
+This repository you're viewing should be viewed alongside the simple-travel-frontend.io, as it serves as the API corresponding with your trip planner.
 
-* System dependencies
+To get this running run:
 
-* Configuration
+* bundle install
+* rails db:migrate
+* rails db:seed (optional) - inserts a few trips written by the author
+* rails s
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+When the command `rails s` is running, make sure you have already simple-travel-frontend.io installed and running
